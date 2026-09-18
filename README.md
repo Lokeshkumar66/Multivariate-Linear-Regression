@@ -7,23 +7,23 @@ To write a python program to implement multivariate linear regression and predic
 ## Algorithm:
 ### Step1
 
-Import the required libraries such as pandas and sklearn.
+Start and import the required libraries such as NumPy, Pandas, and Scikit-learn.
 
 ### Step2
 
-Create/load the dataset and separate the independent variables (X) and the dependent/output variable (Y).
+Load the dataset and separate the independent variables (X) and dependent variable (Y).
 
 ### Step3
 
-Split the dataset into training data and testing data using train_test_split().
+Create the Multivariate Linear Regression model using the training data.
 
 ### Step4
 
-Create a Linear Regression model, train it using the training data, and obtain the regression coefficients.
+Train the model using the fit() method and calculate the regression coefficients.
 
 ### Step5
 
-Give new input values to the trained model and use predict() to predict the output.
+Predict the output for new input values using predict() and display the results.
 
 ## Program:
 ~~~
